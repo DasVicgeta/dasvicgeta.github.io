@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h8 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.fotter-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 35px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.derecha{
+    float: right; /* Establece la imagen a la izquierda */
+    width: 500px;
+}
+
+.izquierda {
+    float: left; /* Hace que el texto flote a la izquierda */
+    width: calc(100% - 550px); /* Resta el ancho de la imagen más el margen de la izquierda */
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
