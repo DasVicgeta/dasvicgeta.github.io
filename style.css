@@ -1034,14 +1034,15 @@ button:focus {
 	background-size: cover;
 	background-attachment: fixed;
 	display: inline;
-	float: left;
 	position: relative;
-	margin-top: 25px;
-	width: 20%;
+	float: right;
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
 }
 
 .search-bar {
-	width: 250px;
+	width: 350px;
 	padding: 5px;
 	outline: none;
 	border: 5px solid #ccd1e4;
@@ -1080,6 +1081,11 @@ button:focus {
 	text-align: center;
 }
 
+.filter {
+	display: none;
+	visibility: hidden;
+}
+
 /*--------------------*/
 /* END SEARCH SIDEBAR */
 /*--------------------*/
@@ -1089,17 +1095,22 @@ button:focus {
 /*--------------------*/
 
 #list {
-	float: right;
-	background-color: #fff;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-	width: 80%;
-	margin-top: 25px;
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
+    float: left;
+    background-color: #fff;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+	border: 10px solid #ccd1e4;
+	border-radius: 5px 5px 5px 5px;
+	width: 300px;
+	height: 500px;
 }
 
 #list h1 {
@@ -1108,7 +1119,8 @@ button:focus {
 	text-align: center;
 	background-color: #f0f0f0;
 	padding: 10px;
-	font-size: 25px;
+	font-size: 20px;
+	width: 260px;
 }
 
 .list-button {
@@ -1122,12 +1134,12 @@ button:focus {
 	cursor: pointer;
 	transition: background-color 0.3s;
 	position: absolute;
-	margin-top: 15px;
-	margin-left: 55px;
+	margin-top: 40px;
+	margin-left: 80px;
 }
 
 .list-button:hover {
-	background-color: #0056b3;
+	background-color: #5092d8;
 }
 
 .list-img-container {
@@ -1138,6 +1150,7 @@ button:focus {
 .list-name {
 	font-weight: bold;
 	margin-bottom: 5px;
+	text-align: center;
 }
 
 .list-description {
@@ -1153,34 +1166,6 @@ button:focus {
 /*   END CATALOGUE    */
 /*--------------------*/
 
-/*--------------------*/
-/* START DECO MATERIAL*/
-/*--------------------*/
-
-.ingles {
-	border: 10px solid #ccd1e4;
-	border-radius: 5px 5px 5px 5px;
-}
-
-.castellano {
-	border: 10px solid #ccd1e4;
-	border-radius: 5px 5px 5px 5px;
-}
-
-.matematica {
-	border: 10px solid #ccd1e4;
-	border-radius: 5px 5px 5px 5px;
-}
-
-.fisica {
-	border: 10px solid #ccd1e4;
-	border-radius: 5px 5px 5px 5px;
-}
-
-/*--------------------*/
-/* END DECO MATERIAL*/
-/*--------------------*/
-
 
 /*--------------------*/
 /* RESPONSIVE STYLE */
@@ -1194,6 +1179,7 @@ button:focus {
 	.navbar-brand img {
 		width: 180px;
 		margin-top: -10px;
+		float: left;
 	}
 
 	.navbar-default .mu-menu li a {
