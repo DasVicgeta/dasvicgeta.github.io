@@ -11,3 +11,5 @@ Como Ayudar:
 
 Meta:
 - Poder ayudar a mas de 100 Estudiantes
+
+![preview img](preview.png)
