@@ -42,6 +42,7 @@ body {
 ul {
 	padding: 0;
 	margin: 0;
+	display: block;
 }
 
 ul li {
@@ -1028,18 +1029,22 @@ button:focus {
 /*--------------------*/
 /* START SEARCH SIDEBAR */
 /*--------------------*/
-#search {
+#buscar {
 	background-color: #fff;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
 	display: inline;
 	position: relative;
-	float: right;
 	margin-top: 50px;
+	margin-left: 420px;
+	margin-right: 420px;
+	margin-bottom: 50px;
 	text-align: center;
-	width: 100%;
+	float: left;
+	width: 50%;
 }
+
 
 .search-bar {
 	width: 350px;
@@ -1105,7 +1110,7 @@ button:focus {
     margin-top: 20px;
     margin-bottom: 50px;
     position: relative;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
 	border: 10px solid #ccd1e4;
 	border-radius: 5px 5px 5px 5px;
