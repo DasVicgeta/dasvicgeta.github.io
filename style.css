@@ -1105,10 +1105,10 @@ button:focus {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 10px;
+    margin-left: 30px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     position: relative;
     display: block;
     flex-wrap: wrap;
@@ -1126,6 +1126,10 @@ button:focus {
 	padding: 10px;
 	font-size: 20px;
 	width: 245px;
+}
+
+#list p {
+	font-size: 15px;
 }
 
 .list-button {
